@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Lyft</title>
+  <link rel="stylesheet" href="assets/css/grid.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+  <div id="splash">
+    <img class="logo" src="assets/img/logo-white.png">
+  </div>
+  <section class="back">
+    <div class="container">
+      <div class="buttons">
+        <button type="button" class="btn btn-default btn1">LOG IN</button>
+        <button type="button" class="btn btn-default btn2">SING UP</button>
+      </div>
+    </div>    
+  </section>
+  <section class="second_sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div id="registrar">
+            <a id="return"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+          </div>
+          <div id="envoltura">
+            <div id="contenedor">
+              <div id="cabecera">
+                <img class="pink" src="assets/img/logo-pink.png" >
+              </div>
+              <div id="cuerpo">
+                <form id="form-login" action="agregar.php" method="post" >
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle drop" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><img id="mex" src="assets/img/mx.png" alt=""><span class="caret"></span></button>
+                    <input name="telefono" type="text" id="telefono" class="telefono" placeholder="Ingrese su número de teléfono" autofocus=""/ >
+                    <div id="mensaje1" class="errores"> Te enviaremos un texto con un codigo para verificar tu telefono
+                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+                      <li><img class="img-menu" src="assets/img/co.png" alt=""></li>
+                      <li><img class="img-menu" src="assets/img/pe.png" alt=""></li>
+                      <li role="separator" class="divider"></li>
+                        <img class="eeuu" src="assets/img/eeuu.jpg" alt="">
+                    </ul>
+                  </div>
+                  <button type="button" class="btn btn-default btn3">NEXT</button>
+                </form> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="third_sec">
+  <div class="row column">
+    <div class="container">
+      <div class="col-xs-12 sm-12 color">
+        <div id="registrar">
+          <a id="return2"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+        </div>
+        <h2>Verifique su número de teléfono</h2>
+        <h5>Únete ahora para obtener un paseo gratis</h5>
+        <h6>LAB</h6><input id="cod" type="text" name="ingresa codigo" placeholder="Ingrese codigo">
+      </div>
+      <button type="button" class="btn btn-default btn-sm bt">Enviar otro codigo</button>
+    </div>
+    <button type="button" class="btn btn-default btn4">NEXT</button>
+  </div>
+</section>
+<section class="fourth_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div id="registrar">
+          <a id="return3"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+        </div>
+        <h2>Sing In</h2>
+        <h6>Únete ahora para obtener un paseo gratis</h6>
+        <div class="input-group input-group-sm">
+          <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" placeholder="First Name" aria-describedby="sizing-addon3">
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="input-group input-group-sm">
+            <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <input type="text" class="form-control" placeholder="E-mail" aria-describedby="sizing-addon3">
+          </div>
+        </div>
+      </div>
+      <div>
+        <input type="checkbox">
+      </div>
+      <div>
+        <h6>Estoy de acuerdo con los terminos y condiciones de Lyft</h6>
+      </div>
+      <button type="button" class="btn btn-default btn btn5">Next</button>
+    </div>
+  </div>
+</div>
+</section>
+<section class="fifth">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div id="registrar">
+            <a id="return4"><i class="fa fa-chevron-left arrow" aria-hidden="true"></i></a>
+        </div>
+        <div>
+          <img class="white" src="assets/img/logo-white.png" alt="">
+          <i class="fa fa-check-square-o" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--js-->
+<script src="https://use.fontawesome.com/7873633050.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
